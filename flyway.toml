@@ -1,0 +1,17 @@
+databaseType = "PostgreSql"
+name = "redgate_test"
+id = "2a391976-7a37-4f8a-9611-e49af657833b"
+
+[flywayDesktop]
+developmentEnvironment = "development"
+shadowEnvironment = "shadow"
+schemaModel = "./schema-model"
+
+[redgateCompare]
+filterFile = "filter.rgf"
+
+[flyway]
+mixed = true
+outOfOrder = true
+locations = [ "filesystem:migrations" ]
+validateMigrationNaming = true
