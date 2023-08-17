@@ -1,0 +1,30 @@
+{
+  "individualResults": [
+    {
+      "initialSchemaVersion": null,
+      "targetSchemaVersion": "001.20230817120644",
+      "schemaName": "public",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "001.20230817120644",
+          "description": "DEV-LTP-0002",
+          "type": "SQL",
+          "filepath": "C:\\Users\\DEV-LTP-0002\\Desktop\\redgate_test\\migrations\\V001_20230817120644__DEV-LTP-0002.sql",
+          "executionTime": 17
+        }
+      ],
+      "migrationsExecuted": 1,
+      "success": true,
+      "flywayVersion": "9.21.1",
+      "database": "redgate",
+      "warnings": [
+        "outOfOrder mode is active. Migration of schema \"public\" may not be reproducible."
+      ],
+      "timestamp": "2023-08-17T17:48:31.182755700",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    }
+  ]
+}
