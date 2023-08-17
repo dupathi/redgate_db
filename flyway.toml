@@ -15,3 +15,8 @@ mixed = true
 outOfOrder = true
 locations = [ "filesystem:migrations" ]
 validateMigrationNaming = true
+
+[environments.development]
+url = "jdbc:postgresql://localhost:5432/redgate"
+schemas = [ "redgate" ]
+displayName = "Development database"
